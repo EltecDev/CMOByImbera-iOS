@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C26143D28FF678200EDDA8D /* BLEDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26143B28FF678200EDDA8D /* BLEDelegate.swift */; };
+		1C26143E28FF678200EDDA8D /* BLEControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C26143C28FF678200EDDA8D /* BLEControl.swift */; };
+		1C558A20290C850A00931E93 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C558A1F290C850A00931E93 /* loginViewController.swift */; };
+		1CAD98CB290B65DD00B66A4E /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD98CA290B65DD00B66A4E /* homeViewController.swift */; };
+		1CC0CFFC28FF33DA00B126A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0CFFB28FF33DA00B126A1 /* AppDelegate.swift */; };
+		1CC0D00028FF33DA00B126A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0CFFF28FF33DA00B126A1 /* ViewController.swift */; };
+		1CC0D00328FF33DA00B126A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC0D00128FF33DA00B126A1 /* Main.storyboard */; };
+		1CC0D00628FF33DA00B126A1 /* CMOByImbera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0D00428FF33DA00B126A1 /* CMOByImbera.xcdatamodeld */; };
+		1CC0D00828FF33DB00B126A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC0D00728FF33DB00B126A1 /* Assets.xcassets */; };
+		1CC0D00B28FF33DB00B126A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC0D00928FF33DB00B126A1 /* LaunchScreen.storyboard */; };
+		1CC0D01428FF375A00B126A1 /* bluetoothCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC0D01328FF375A00B126A1 /* bluetoothCell.swift */; };
+		1CFF126129243A75000A1706 /* dictionary1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF126029243A75000A1706 /* dictionary1.swift */; };
+		34042049814F026CAA38A21F /* Pods_CMOByImbera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9B5AD2BB56CA82452B96A8 /* Pods_CMOByImbera.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C26143B28FF678200EDDA8D /* BLEDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDelegate.swift; sourceTree = "<group>"; };
+		1C26143C28FF678200EDDA8D /* BLEControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEControl.swift; sourceTree = "<group>"; };
+		1C26143F28FF685100EDDA8D /* CMOByImberaRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CMOByImberaRelease.entitlements; sourceTree = "<group>"; };
+		1C558A1F290C850A00931E93 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		1CAD98CA290B65DD00B66A4E /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		1CC0CFF828FF33DA00B126A1 /* CMOByImbera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMOByImbera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC0CFFB28FF33DA00B126A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC0CFFF28FF33DA00B126A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CC0D00228FF33DA00B126A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CC0D00528FF33DA00B126A1 /* CMOByImbera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMOByImbera.xcdatamodel; sourceTree = "<group>"; };
+		1CC0D00728FF33DB00B126A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC0D00A28FF33DB00B126A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CC0D00C28FF33DB00B126A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC0D01328FF375A00B126A1 /* bluetoothCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetoothCell.swift; sourceTree = "<group>"; };
+		1CFF126029243A75000A1706 /* dictionary1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionary1.swift; sourceTree = "<group>"; };
+		3A9B5AD2BB56CA82452B96A8 /* Pods_CMOByImbera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMOByImbera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC1F2E31AA4136882E60BED /* Pods-CMOByImbera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMOByImbera.release.xcconfig"; path = "Target Support Files/Pods-CMOByImbera/Pods-CMOByImbera.release.xcconfig"; sourceTree = "<group>"; };
+		8FD90369E3C1F2700E7F553F /* Pods-CMOByImbera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMOByImbera.debug.xcconfig"; path = "Target Support Files/Pods-CMOByImbera/Pods-CMOByImbera.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC0CFF528FF33DA00B126A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34042049814F026CAA38A21F /* Pods_CMOByImbera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C558A1E290C84A200931E93 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CC0CFFF28FF33DA00B126A1 /* ViewController.swift */,
+				1CAD98CA290B65DD00B66A4E /* homeViewController.swift */,
+				1C558A1F290C850A00931E93 /* loginViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		1CC0CFEF28FF33DA00B126A1 = {
+			isa = PBXGroup;
+			children = (
+				1CC0CFFA28FF33DA00B126A1 /* CMOByImbera */,
+				1CC0CFF928FF33DA00B126A1 /* Products */,
+				4990C64C97159760EBCF636A /* Pods */,
+				23B47F940398A2CBAD76AEBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC0CFF928FF33DA00B126A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC0CFF828FF33DA00B126A1 /* CMOByImbera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC0CFFA28FF33DA00B126A1 /* CMOByImbera */ = {
+			isa = PBXGroup;
+			children = (
+				1C26143F28FF685100EDDA8D /* CMOByImberaRelease.entitlements */,
+				1CC0D01228FF373F00B126A1 /* utils */,
+				1C558A1E290C84A200931E93 /* controllers */,
+				1CC0CFFB28FF33DA00B126A1 /* AppDelegate.swift */,
+				1CC0D00128FF33DA00B126A1 /* Main.storyboard */,
+				1CC0D00728FF33DB00B126A1 /* Assets.xcassets */,
+				1CC0D00928FF33DB00B126A1 /* LaunchScreen.storyboard */,
+				1CC0D00C28FF33DB00B126A1 /* Info.plist */,
+				1CC0D00428FF33DA00B126A1 /* CMOByImbera.xcdatamodeld */,
+			);
+			path = CMOByImbera;
+			sourceTree = "<group>";
+		};
+		1CC0D01228FF373F00B126A1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1CFF126029243A75000A1706 /* dictionary1.swift */,
+				1C26143C28FF678200EDDA8D /* BLEControl.swift */,
+				1C26143B28FF678200EDDA8D /* BLEDelegate.swift */,
+				1CC0D01328FF375A00B126A1 /* bluetoothCell.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		23B47F940398A2CBAD76AEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A9B5AD2BB56CA82452B96A8 /* Pods_CMOByImbera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4990C64C97159760EBCF636A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FD90369E3C1F2700E7F553F /* Pods-CMOByImbera.debug.xcconfig */,
+				5AC1F2E31AA4136882E60BED /* Pods-CMOByImbera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC0CFF728FF33DA00B126A1 /* CMOByImbera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC0D00F28FF33DB00B126A1 /* Build configuration list for PBXNativeTarget "CMOByImbera" */;
+			buildPhases = (
+				6789A829729E35D93A3F7FC4 /* [CP] Check Pods Manifest.lock */,
+				1CC0CFF428FF33DA00B126A1 /* Sources */,
+				1CC0CFF528FF33DA00B126A1 /* Frameworks */,
+				1CC0CFF628FF33DA00B126A1 /* Resources */,
+				9098BD05EEBE3E4CF1A3B7F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMOByImbera;
+			productName = CMOByImbera;
+			productReference = 1CC0CFF828FF33DA00B126A1 /* CMOByImbera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC0CFF028FF33DA00B126A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1CC0CFF728FF33DA00B126A1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CC0CFF328FF33DA00B126A1 /* Build configuration list for PBXProject "CMOByImbera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC0CFEF28FF33DA00B126A1;
+			productRefGroup = 1CC0CFF928FF33DA00B126A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC0CFF728FF33DA00B126A1 /* CMOByImbera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC0CFF628FF33DA00B126A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC0D00B28FF33DB00B126A1 /* LaunchScreen.storyboard in Resources */,
+				1CC0D00828FF33DB00B126A1 /* Assets.xcassets in Resources */,
+				1CC0D00328FF33DA00B126A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6789A829729E35D93A3F7FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CMOByImbera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9098BD05EEBE3E4CF1A3B7F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CMOByImbera/Pods-CMOByImbera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CMOByImbera/Pods-CMOByImbera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CMOByImbera/Pods-CMOByImbera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC0CFF428FF33DA00B126A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C26143E28FF678200EDDA8D /* BLEControl.swift in Sources */,
+				1CFF126129243A75000A1706 /* dictionary1.swift in Sources */,
+				1CAD98CB290B65DD00B66A4E /* homeViewController.swift in Sources */,
+				1CC0D01428FF375A00B126A1 /* bluetoothCell.swift in Sources */,
+				1CC0D00028FF33DA00B126A1 /* ViewController.swift in Sources */,
+				1C558A20290C850A00931E93 /* loginViewController.swift in Sources */,
+				1CC0CFFC28FF33DA00B126A1 /* AppDelegate.swift in Sources */,
+				1CC0D00628FF33DA00B126A1 /* CMOByImbera.xcdatamodeld in Sources */,
+				1C26143D28FF678200EDDA8D /* BLEDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CC0D00128FF33DA00B126A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC0D00228FF33DA00B126A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC0D00928FF33DB00B126A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC0D00A28FF33DB00B126A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC0D00D28FF33DB00B126A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC0D00E28FF33DB00B126A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC0D01028FF33DB00B126A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD90369E3C1F2700E7F553F /* Pods-CMOByImbera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0024;
+				DEVELOPMENT_TEAM = KG85A5M2QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CMOByImbera/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CMO By Imbera ";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "La aplicación requiere acceso al Bluetooth de tu dispositivo para conectarse, leer y escribir  configuraciones en tu CMO";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "La aplicación requiere acceso al Bluetooth de tu dispositivo para conectarse, leer y escribir  configuraciones en tu CMO";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.01.14;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.eltec.1.CMOByImbera.CMOByImbera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC0D01128FF33DB00B126A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC1F2E31AA4136882E60BED /* Pods-CMOByImbera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CMOByImbera/CMOByImberaRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0024;
+				DEVELOPMENT_TEAM = KG85A5M2QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CMOByImbera/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CMO By Imbera ";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "La aplicación requiere acceso al Bluetooth de tu dispositivo para conectarse, leer y escribir  configuraciones en tu CMO";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "La aplicación requiere acceso al Bluetooth de tu dispositivo para conectarse, leer y escribir  configuraciones en tu CMO";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.01.14;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.eltec.1.CMOByImbera.CMOByImbera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC0CFF328FF33DA00B126A1 /* Build configuration list for PBXProject "CMOByImbera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC0D00D28FF33DB00B126A1 /* Debug */,
+				1CC0D00E28FF33DB00B126A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC0D00F28FF33DB00B126A1 /* Build configuration list for PBXNativeTarget "CMOByImbera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC0D01028FF33DB00B126A1 /* Debug */,
+				1CC0D01128FF33DB00B126A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CC0D00428FF33DA00B126A1 /* CMOByImbera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CC0D00528FF33DA00B126A1 /* CMOByImbera.xcdatamodel */,
+			);
+			currentVersion = 1CC0D00528FF33DA00B126A1 /* CMOByImbera.xcdatamodel */;
+			path = CMOByImbera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CC0CFF028FF33DA00B126A1 /* Project object */;
+}
