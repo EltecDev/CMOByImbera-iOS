@@ -493,6 +493,7 @@ class homeViewController:UIViewController, BLEDelegate  {
     //bluetooth delegate
     func newDeviceScanned(_ deviceName: String, localName: String, uuid: UUID, rssi: Int, advertisementData: [AnyHashable : Any]!) {
         //
+        
     }
     
     func connectionState(_ deviceName: String, state: Bool) {
@@ -682,11 +683,13 @@ extension Data {
         return self.map { Int($0) }.reduce(0, +) & 0xff
     }
 }
+
 extension Decimal {
     var int: Int {
         return NSDecimalNumber(decimal: self).intValue
     }
 }
+
 extension StringProtocol {
     var hexaData: Data { .init(hexa) }
     var hexaBytes: [UInt8] { .init(hexa) }
@@ -738,3 +741,4 @@ extension UITextField{
     }
     
 }
+
